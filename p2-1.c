@@ -1,3 +1,7 @@
+//제작자 : 한윤수
+//학번 : 2023041004
+//작성일 : 2023년 3월 27일
+//저장소 : https://github.com/DireRaven22075/homework3
 #include <stdio.h>
 #define MAX_SIZE 100
 float sum1(float list[], int);
