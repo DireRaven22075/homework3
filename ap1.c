@@ -1,6 +1,12 @@
+//제작자 : 한윤수
+//학번 : 2023041004
+//작성일 : 2023년 3월 27일
+//저장소 : https://github.com/DireRaven22075/homework3
 #include <stdio.h>
 #include <stdlib.h>
+
 void main(void) {
+    //
     int list[5];
     int *plist[5] = {NULL,};
     plist[0] = (int *)malloc(sizeof(int));
