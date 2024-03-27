@@ -6,7 +6,7 @@
 #include <stdlib.h>
 
 void main(void) {
-    //
+    printf("[---------2023041004 - 한윤수----------]\n\n");
     int list[5];
     int *plist[5] = {NULL,};
     plist[0] = (int *)malloc(sizeof(int));
