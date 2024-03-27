@@ -35,8 +35,8 @@ int main(void) {
 }
 //매개변수를 배열로 받는 함수
 float sum1(float list[], int n) {
-    printf("list\t= %p\n", list);
-    printf("&list\t= %p\n\n", &list);
+    printf("list\t= %p\n", list); //list의 값 출력 (input의 주소와 같음)
+    printf("&list\t= %p\n\n", &list); //list의 주소 출력 (input의 주소와 다름)
     float tempsum = 0;
     for(i = 0; i < n; i++)
         tempsum += list[i];
@@ -44,8 +44,8 @@ float sum1(float list[], int n) {
 }
 //매개변수를 포인터로 받는 함수
 float sum2(float *list, int n) {
-    printf("list\t= %p\n", list);
-    printf("&list\t= %p\n\n", &list);
+    printf("list\t= %p\n", list); //list의 값 출력 (input의 주소와 같음)
+    printf("&list\t= %p\n\n", &list); //list의 주소 출력 (input의 주소와 다름)
     float tempsum = 0;
     for(i = 0; i < n; i++)
         tempsum += *(list + i);
@@ -53,8 +53,8 @@ float sum2(float *list, int n) {
 }
 //매개변수를 배열의 포인터로 받는 함수
 float sum3(int n, float *list) {
-    printf("list\t= %p\n", list);
-    printf("&list\t= %p\n\n", &list);
+    printf("list\t= %p\n", list); //list의 값 출력 (input의 주소와 같음)
+    printf("&list\t= %p\n\n", &list); //list의 주소 출력 (input의 주소와 다름)
     float tempsum = 0;
     for(i = 0; i < n; i++) 
         tempsum += *(list + i);
